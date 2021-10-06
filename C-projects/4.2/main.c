@@ -5,8 +5,7 @@ int main() {
     int b;
     char y;
     float r;
-    float pi = 3.14159265359;
-    float radius;
+    double pi = 3.14159265359;
 
 
 
@@ -29,7 +28,7 @@ int main() {
     if (y == 1){
         printf("define a raidius: ");
         scanf("%f",&r);
-        float test = r * r * pi;
+        double test = r * r * pi;
         printf("%f",test);
 
     }
