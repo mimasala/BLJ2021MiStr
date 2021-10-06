@@ -6,6 +6,7 @@ int main() {
     char y;
     float r;
     double pi = 3.14159265359;
+    double test;
 
 
 
@@ -38,7 +39,7 @@ int main() {
     }
 
     printf("do you wish to proceed to 4.2.3? (0/1)\n");
-
+    scanf("%d",&y);
 
     if (y == 1){
 
