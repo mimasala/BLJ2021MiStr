@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-Aufgaben Select CMakeLists.txt
