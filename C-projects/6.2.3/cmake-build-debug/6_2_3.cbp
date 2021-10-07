@@ -18,10 +18,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="6_2_3">
-				<Option output="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/cmake-build-debug/lib6_2_3.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/cmake-build-debug/6_2_3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="c:\mytools\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
@@ -36,10 +36,10 @@
 				</MakeCommands>
 			</Target>
 			<Target title="6_2_3/fast">
-				<Option output="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/cmake-build-debug/lib6_2_3.a" prefix_auto="0" extension_auto="0"/>
+				<Option output="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/cmake-build-debug/6_2_3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/cmake-build-debug"/>
 				<Option object_output="./"/>
-				<Option type="2"/>
+				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="c:\mytools\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
@@ -74,10 +74,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/library.c">
-			<Option target="6_2_3"/>
-		</Unit>
-		<Unit filename="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/library.h">
+		<Unit filename="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/main.c">
 			<Option target="6_2_3"/>
 		</Unit>
 		<Unit filename="C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/6.2.3/CMakeLists.txt">

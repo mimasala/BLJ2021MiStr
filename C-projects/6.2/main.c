@@ -10,8 +10,8 @@ int main()
     printf("--------------------------------\nEnter any string :\n");
     gets(str);
     printf("--------------------------------\n");
-    printf("%s\n",str);
-    for(h=0; str[h]!='\0'; h++){
+    printf('%.*s',2,str);
+    for(h=0; str[h]; h++){
         printf("%c\n",str[h]);
         }
     strrev(str);

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\6.2.3
+CMAKE_SOURCE_DIR = C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\526
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\6.2.3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\526\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\6.2.3\cmake-build-debug\CMakeFiles C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\6.2.3\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\526\cmake-build-debug\CMakeFiles C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\526\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\6.2.3\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Source\projects-web\BLJ2021-Aufgaben-C\BLJ2021MiStr\C-projects\526\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 6_2_3
+# Target rules for targets named 526
 
 # Build rule for target.
-6_2_3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 6_2_3
-.PHONY : 6_2_3
+526: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 526
+.PHONY : 526
 
 # fast build rule for target.
-6_2_3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_2_3.dir\build.make CMakeFiles/6_2_3.dir/build
-.PHONY : 6_2_3/fast
+526/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\526.dir\build.make CMakeFiles/526.dir/build
+.PHONY : 526/fast
 
 main.obj: main.c.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_2_3.dir\build.make CMakeFiles/6_2_3.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\526.dir\build.make CMakeFiles/526.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -141,7 +141,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_2_3.dir\build.make CMakeFiles/6_2_3.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\526.dir\build.make CMakeFiles/526.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -149,7 +149,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_2_3.dir\build.make CMakeFiles/6_2_3.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\526.dir\build.make CMakeFiles/526.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... 6_2_3
+	@echo ... 526
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
