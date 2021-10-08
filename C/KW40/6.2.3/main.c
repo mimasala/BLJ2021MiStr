@@ -1,21 +1,47 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
+#include <string.h>
 
+int compare(char[], char[]);
 
-
-int main(int argc, char const *argv[])
+int main()
 {
-    char wort= 0;
-    printf("\nanagramme erkennen\n");
-    printf("schreiben sie ein wort:");
-    scanf("%s",wort);
+    char str1[50] = {0}; // declare and initialize the size of string array.
+    char str2[50] = {0};
+    int tmp = 0;
+    printf (" Enter a string to be reversed: ");
+    scanf( "%s", str1);
 
-    strrev(wort);
+    strcpy(str2, str1);
+    strrev(str2);
 
-    /*if(wort == strrev(wort)){
-
-    }*/
+    tmp = compare(str1, str2);
 
 
+
+    if(tmp == 0){
+        printf("Es ist ein Anagramm");
+    } else {
+        printf("Es ist kein Anagram");
+    }
+
+
+    return 0;
+}
+
+int compare(char a[],char b[])
+{
+    int flag=0,i=0;  // integer variables declaration
+    while(a[i]!='\0' &&b[i]!='\0')  // while loop
+    {
+        if(a[i]!=b[i])
+        {
+            flag=1;
+            break;
+        }
+        i++;
+    }
+    if(flag==0)
+        return 0;
+    else
+        return 1;
 }
