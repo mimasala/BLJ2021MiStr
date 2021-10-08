@@ -1,0 +1,27 @@
+header li{
+    list-style: none;
+}
+
+.google a:link, a:visited{
+    text-decoration: none;
+    background-color: aliceblue;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.google a:hover, a:active{
+    background-color: red;
+    color: blue;
+}
+
+header li:nth-child(2){
+    font-size: larger;
+}
+
+body{
+    background-color: rgb(63, 63, 63);
+}

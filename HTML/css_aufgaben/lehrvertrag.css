@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap%27');
+
+
+.blockHoliday {
+    background-color: #b2d0dd;
+    padding: 10px;
+    padding-right: 20px;
+    width:90%;
+    float: right;
+}
+
+.textBox {
+    border: none;
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    width: 120px; 
+}
+
+
+ 
+.textNumber {
+
+    float: right;
+    background-color: #ffffff;
+    padding-top: 13px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #2b7da1;
+}
+ 
+.text{
+    position: relative;
+    top: 15px;
+    color: #2b7da1;
+    font-family: Quicksand;
+    font-size: 1em;
+}
+
+ 
+ 
+
+ 
+.bigText{
+    position: relative;
+    top: 18px;
+    color: #2b7da1;
+    font-family: Quicksand;
+    font-size: 1.5em;
+}
+
+input:focus { 
+    outline: none;
+}
