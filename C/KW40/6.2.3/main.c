@@ -10,24 +10,16 @@ int main()
     int tmp = 0;
     printf (" Enter a string to be reversed: ");
     scanf( "%s", str1);
-
     strcpy(str2, str1);
     strrev(str2);
-
     tmp = compare(str1, str2);
-
-
-
     if(tmp == 0){
-        printf("Es ist ein Anagramm");
+        printf("it is an anagramme ");
     } else {
-        printf("Es ist kein Anagram");
+        printf("no anagramme Sadge");
     }
-
-
     return 0;
 }
-
 int compare(char a[],char b[])
 {
     int flag=0,i=0;  // integer variables declaration

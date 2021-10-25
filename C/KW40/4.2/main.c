@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    unsigned char a;
+    int a;
     int b;
     char y;
     float r;
@@ -13,12 +13,14 @@ int main() {
     printf("start of 4.2.1\n");
 
     printf("Enter value of a: ");
-    scanf("%x",&a);
+    scanf("%i",&a);
     printf("Enter value of b: ");
-    scanf("%x",&b);
+    scanf("%i",&b);
 
-    printf("Value of a: Hex: %x, Decimal: %d\n",a,a);
-    printf("Value of b: Hex: %x, Decimal: %d\n",b,b);
+
+    printf("0x%x\n", a);
+    printf("0x%x\n", b);
+
 
     printf("end of 4.2.1\n");
 
@@ -29,7 +31,7 @@ int main() {
     if (y == 1){
         printf("define a raidius: ");
         scanf("%f",&r);
-        double test = r * r * pi;
+        double test = r * 2 * pi;
         printf("%f",test);
 
     }

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/5.2
+# Install script for directory: C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/KW40/5.2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/5.2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/KW40/5.2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

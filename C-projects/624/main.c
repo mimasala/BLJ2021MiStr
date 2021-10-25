@@ -1,30 +1,32 @@
-#include <stdio.h>
-#include <conio.h>
 #include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
 
-int main() {
-
-    int i = 0;
-    char z;
-    char n[] = {0};
-    const char s[2] = " ";
+int main () {
+    char str[80] = {0};
+    const char s[] = " ";
     char *token;
+    char z;
 
-    printf("bitte geben sie ein zeichen ein, welches für die anzeige verwendet wird");
-    scanf("%c",z);
+
+    printf("bitte geben sie ein Zeichen ein, welches fuer die Anzeige verwendet wird:");
+    scanf("%c",&z);
     printf("Bitte geben Sie die Diagrammwerte ein (durch Leerschlag getrennt):");
-    scanf("%s",n);
+    scanf(" %[^\n]",str);
 
-    while( token != NULL) {
-        printf( " %s\n", token );
+    /* get the first token */
+    token = strtok(str, s);
+    /* walk through other tokens */
+    while( token != NULL ) {
+        int x = atoi(token);
+        for(int i = 1; i <= x; i++) {
+            printf("%c",z);
+        }
+        printf("\n");
         token = strtok(NULL, s);
-        i++;
-    }
-
-    for (int i = 0; i < n; ++i) {
-
 
     }
 
-
+    return(0);
 }
+

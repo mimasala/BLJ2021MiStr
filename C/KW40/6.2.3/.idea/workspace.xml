@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d41ff0f-8673-4b94-b54d-4afb6f03c092" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../C-projects/6.2.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C-projects/624/cmake-build-debug/CMakeFiles/624.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C-projects/624/cmake-build-debug/CMakeFiles/624.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C-projects/624/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C-projects/624/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../C-projects/624/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../C-projects/624/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +46,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="6_2_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="6_2_3" TARGET_NAME="6_2_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="6_2_3" RUN_TARGET_NAME="6_2_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -72,6 +69,10 @@
       <workItem from="1633683299684" duration="18000" />
       <workItem from="1633683661069" duration="886000" />
       <workItem from="1633685466476" duration="8782000" />
+      <workItem from="1633783338305" duration="134000" />
+      <workItem from="1634800386133" duration="2292000" />
+      <workItem from="1634882926990" duration="480000" />
+      <workItem from="1634883653554" duration="73000" />
     </task>
     <servers />
   </component>

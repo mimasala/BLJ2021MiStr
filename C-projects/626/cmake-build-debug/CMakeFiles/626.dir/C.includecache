@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/626/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+
