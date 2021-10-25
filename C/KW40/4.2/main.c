@@ -32,23 +32,14 @@ int main() {
         printf("define a raidius: ");
         scanf("%f",&r);
         double test = r * 2 * pi;
-        printf("%f",test);
+        printf("the circumference of a circle with the radius value given is %f",test);
 
     }
 
     if (y == 0){
+        printf("byee");
         return 0;
     }
 
-    printf("do you wish to proceed to 4.2.3? (0/1)\n");
-    scanf("%d",&y);
-
-    if (y == 1){
 
     }
-
-
-    if (y == 0){
-        return 0;
-    }
-}

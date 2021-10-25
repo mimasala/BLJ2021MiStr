@@ -1,3 +1,0 @@
-C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/821/cmake-build-debug/CMakeFiles/821.dir
-C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/821/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/821/cmake-build-debug/CMakeFiles/rebuild_cache.dir
