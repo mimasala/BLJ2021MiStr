@@ -24,30 +24,24 @@ int main(int argc, char **argv)
     int currentBiggest;
     for (int i = 1; i <= sizeArr; i++)
     {
-        if (zahlen[i] == 3)
-        {
+        if (zahlen[i] == 3){
             counter++;
         }
-        if (zahlen[i] == 758)
-        {
-            if (!found)
-            {
+        if (zahlen[i] == 758){
+            if (!found){
                 found = i;
             }
         }
-        if (zahlen[i] == 900)
-        {
+        if (zahlen[i] == 900){
             if (!found2)
             {
                 found2 = i;
             }
         }
-        if (zahlen[i] > currentBiggest)
-        {
+        if (zahlen[i] > currentBiggest){
             currentBiggest = zahlen[i];
         }
-        if (zahlen[i] < currentSmallest)
-        {
+        if (zahlen[i] < currentSmallest){
             currentSmallest = zahlen[i];
         }
     }

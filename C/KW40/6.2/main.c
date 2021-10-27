@@ -15,7 +15,7 @@ int main(void) {
     printf("%s", word);
     printf("\n");
     for(x=2; word[x]!='\0'; x++ ) {
-        int y = length - x;//y is the difference between the word length and x, so the order is switched
+        int y = length - x;
         printf("%c", word[x-1]);
         for (i = 2; i < length; i ++) {
             printf("%s", spaces);
@@ -27,5 +27,9 @@ int main(void) {
         printf("%c",word[x] );
     }
     printf("\n");
+    strrev(word);
+    printf("your word backwards: %s",word);
+
+
     return 0;
 }

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/624/main.c" "C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C-projects/624/cmake-build-debug/CMakeFiles/624.dir/main.c.obj"
+  "C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/KW40/6.2.4/main.c" "C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/KW40/6.2.4/cmake-build-debug/CMakeFiles/624.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

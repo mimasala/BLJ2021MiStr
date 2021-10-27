@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/functionHeader/test/inputhandler.c
+stdio.h
+-
+
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/functionHeader/test/inputhandler.h
+inputhandler.c
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/functionHeader/test/inputhandler.c
+
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/functionHeader/test/main.c
+stdio.h
+-
+inputhandler.h
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/C/functionHeader/test/inputhandler.h
+
