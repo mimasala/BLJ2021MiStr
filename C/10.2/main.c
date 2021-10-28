@@ -6,6 +6,7 @@ int main() {
     int *pt;
     a = 10;
     pt = &a;
+
     //prints out the integer a
     printf("a : %d\n", a);
     //prints out the pointer

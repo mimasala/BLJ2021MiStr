@@ -22,6 +22,5 @@ int main(){
     printf("Enter a Decimal Number: ");
     scanf("%d", &decimalnum);
     printf("Equivalent Binary Number is: %ld", decimalToBinary(decimalnum));
-    printf("hrllo mischa*");
     return 0;
 }

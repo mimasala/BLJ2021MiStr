@@ -22,5 +22,3 @@ int main() {
     printf("%lld in binary = %d in decimal", n, convert(n));
     return 0;
 }
-
-
