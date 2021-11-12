@@ -1,18 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-double calcPoints(double a, double b, double xmin, double xmax, double *xcon[100], double *ycon[100]);
+
+void calcPoints(double a, double b, double xmin, double *xcon, double *ycon);
 
 int main() {
 
     double a;
     double b;
-    double xmin;
-    double xmax;
+    double xmin = 0;
     double xcon[100];
     double ycon[100];
-    int p_xcon;
-    int p_ycon;
+
 
     printf("Bitte die Steigung eingeben:\n");
     scanf("%lf", &a);
@@ -20,29 +18,22 @@ int main() {
     scanf("%lf", &b);
     printf("Bitte den Xmin eingeben:\n");
     scanf("%lf", &xmin);
-    printf("Bitte den Xmax eingeben:\n");
-    scanf("%lf", &xmax);
 
-    calcPoints(a, b, xmin, xmax, &p_xcon, &p_ycon);
-   
-    for (int i = 0; i <= 100; ++i) {
-        printf("Zahl %d: %lf", i, xcon[i]);
+
+    calcPoints(a, b, xmin, xcon, ycon);
+
+    for (int i = 1; i <= 20; ++i) {
+        printf("Zahl %d: x:%lf y:%lf\n", i, xcon[i], ycon[i]);
     }
 
     return 0;
 }
 
-double calcPoints(double a, double b, double xmin, double xmax, double *xcon[100], double *ycon[100]){
+void calcPoints(double a, double b, double xmin, double *xcon, double *ycon){
 
-    for (int i = 0; i  < 100 ; i = i+1) {
-        if (xmin <= xmax){
-            *xcon[i] = a*xmin + b;
-            *ycon[i] = xmin;
-            xmin = xmin + 1;
-        }
-
-
+    for (int i = 1; i  <= 20 ; i = i+1) {
+        ycon[i] = a*xmin + b;
+        xcon[i] = xmin;
+        xmin += 1;
     }
-
-
 }

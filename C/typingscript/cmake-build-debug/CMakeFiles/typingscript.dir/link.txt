@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\typingscript.dir/objects.a
+C:\MyTools\MinGW\bin\ar.exe cr CMakeFiles\typingscript.dir/objects.a @CMakeFiles\typingscript.dir\objects1.rsp
+C:\MyTools\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\typingscript.dir/objects.a -Wl,--no-whole-archive -o typingscript.exe -Wl,--out-implib,libtypingscript.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\typingscript.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/BMP-Aufgaben/2.2/cmake-build-debug/CMakeFiles/2_2.dir
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/BMP-Aufgaben/2.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Source/projects-web/BLJ2021-Aufgaben-C/BLJ2021MiStr/BMP-Aufgaben/2.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
